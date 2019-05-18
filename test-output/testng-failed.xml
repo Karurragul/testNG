@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="select" value="English"/>
+    <parameter name="Address" value="Kelambakkam"/>
+    <parameter name="gender" value="Male"/>
+    <parameter name="FirstName" value="ragu"/>
+    <parameter name="mobile" value="8754074899"/>
+    <parameter name="Count" value="India"/>
+    <parameter name="nations" value="Australia"/>
+    <parameter name="Skill" value="ANDROID"/>
+    <parameter name="DOB" value="16071994"/>
+    <parameter name="Re-password" value="Summa123"/>
+    <parameter name="Hob" value="Cricket"/>
+    <parameter name="LastName" value="kulandaivelu"/>
+    <parameter name="email" value="karurragu@gmail.com"/>
+    <parameter name="Password" value="Summa123"/>
+    <classes>
+      <class name="testNG.Two">
+        <methods>
+          <include name="test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNG.Two -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
